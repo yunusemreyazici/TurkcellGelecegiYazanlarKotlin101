@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <EditText
+                android:id="@+id/editTextTextPersonName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:layout_marginBottom="20dp"
+                android:hint="Ad"
+                android:gravity="center"
+                 />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="Soyad"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="E-Posta"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="Yaş"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="Telefon"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="Şifre"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="Şifre tekrar"
+                android:inputType="textPersonName" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
