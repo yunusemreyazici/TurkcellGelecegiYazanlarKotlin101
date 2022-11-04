@@ -1,0 +1,2 @@
+- Fragmenta değer gönderme yani bir butona basıldığında fragment 
+içerisindeki textin valuesini değiştiremedim.(5.11.2022)
